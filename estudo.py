@@ -12,3 +12,8 @@ if idade >=18:
     print(f"Você é maior de idade!")
 else:
     print(f"Você é menor de idade!")
+    
+        
+while idade >= 18:
+    print(f"cuidado, você pode ser preso")
+    break
