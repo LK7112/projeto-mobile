@@ -12,3 +12,12 @@ while tentativas < max_tentativas:
     else:
         tentativas += 1
         print(f"Usuário ou senha incorretos. Tentativa {tentativas} de {max_tentativas}.")
+        
+valor = float(input("Valor da compra: R$"))
+distancia = float(input("Distância em km:"))
+if valor >= 200:
+        frete = 0
+else:
+        frete = 5 + distancia * 1.5
+        print(f"Valor do frete: R${frete:.2f}")
+        print(f"Valor total da compra: R${valor + frete:.2f}")
