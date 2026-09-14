@@ -2,7 +2,7 @@
 int, numeros inteiros 1 2 3 4...
 float, numeros quebrados 1.5 2.5 3.5...
 string, textos 'oshdahesfhbsh'..."""
-
+import time
 idade = int(input("Diga sua idade:"))
 print(f"Você tem {idade} anos")
 while idade < 0:
@@ -17,3 +17,9 @@ else:
 while idade >= 18:
     print(f"cuidado, você pode ser preso")
     break
+for numero in range(5, 0, -1):
+    time.sleep(1)
+    print(numero)
+
+
+print("Vai!!!")
